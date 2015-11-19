@@ -12,7 +12,11 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	
+<!-- Controller 설정 -->
 
+
+<!-- DBCP POOL SETUP -->
 	<resource-ref>
 		<description>Connection</description>
 		<res-ref-name>jdbc/boardDB</res-ref-name>
