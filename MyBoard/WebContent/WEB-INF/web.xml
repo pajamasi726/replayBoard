@@ -12,11 +12,20 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	<!-- SERVLET SETUP -->
+	<servlet>
+		<servlet-name>Member</servlet-name>
+		<servlet-class>MemberController.MemberController</servlet-class>
+	</servlet>
+
+	<!-- SEVLET MAPPING -->
+	<servlet-mapping>
+		<servlet-name>Member</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
 	
-<!-- Controller 설정 -->
-
-
-<!-- DBCP POOL SETUP -->
+	
+	<!-- DBCP POOL SETUP -->
 	<resource-ref>
 		<description>Connection</description>
 		<res-ref-name>jdbc/boardDB</res-ref-name>
