@@ -38,7 +38,7 @@ public class MemberController extends HttpServlet {
 		
 		session.setAttribute("cmd", cmd);
 		
-		response.sendRedirect("./test.jsp");
+		response.sendRedirect("./Member/JoinForm.jsp");
 		
 	}
 
