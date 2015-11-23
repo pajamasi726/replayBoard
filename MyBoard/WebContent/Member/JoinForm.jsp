@@ -10,7 +10,7 @@
 
 	<h3>회 원 가 입</h3>
 
-	<form action="Member.do?cmd=MemberJoin" method="get">
+	<form action="Member.do?cmd=MemberJoin" method="post">
 		<table align="left">
 			<tr>
 				<td>아이디 :</td>

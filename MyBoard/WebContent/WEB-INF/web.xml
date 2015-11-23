@@ -15,7 +15,7 @@
 	<!-- SERVLET SETUP -->
 	<servlet>
 		<servlet-name>Member</servlet-name>
-		<servlet-class>MemberController.MemberController</servlet-class>
+		<servlet-class>Member.Controller.MemberController</servlet-class>
 	</servlet>
 
 	<!-- SEVLET MAPPING -->

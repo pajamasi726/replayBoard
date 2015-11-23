@@ -1,7 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+
+
+
 <%
 	String pagefile=request.getParameter("page");
-	if(pagefile==null)
+
+	if(pagefile==null) // null 값인 경우 기본은 게시판 설정
 	{
 		pagefile="/Board/BoardList.jsp";
 	}
@@ -9,7 +13,7 @@
 %>
 <html>
 <head>
-<title>Template Test</title>
+<title>MVC Board</title>
 </head>
 <body>
 <table width="960" border="1" color="gray" align="center">
